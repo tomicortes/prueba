@@ -1,4 +1,5 @@
-function addProduct(product, container) {
+function addProduct(product, container) {    
+
 const card = document.createElement('article')
 card.className = "card"
 
@@ -7,15 +8,12 @@ imagen.src = product.image
 imagen.className = "card-image"
 
 const productName = document.createElement('h3')
-
 productName.textContent = product.name
 
 const productDescription = document.createElement('p')
-
 productDescription.textContent = product.description
 
 const productPrice = document.createElement('p')
-
 productPrice.textContent = product.price
 
 card.appendChild(imagen)
@@ -25,3 +23,7 @@ card.appendChild(productPrice)
 
 container.appendChild(card)
 }
+
+
+
+

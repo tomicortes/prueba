@@ -3,7 +3,7 @@ console.log(remera)
 
 const pantalonAzul = new Product("Pantalon","Pantalon de color azul",20,"https://http2.mlstatic.com/D_NQ_NP_823406-MLA44869414674_022021-W.jpg")
 
-const container = document.getElementById('app')
+const container = document.getElementById('readycards')
 
 const form = document.getElementById("product-form")
 

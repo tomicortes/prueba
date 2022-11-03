@@ -4,17 +4,105 @@
   box-sizing: border-box;
 }
 
-.container{
-  display: flex;
-  flex-wrap: wrap;
-  
-}
-
-.card{
-  width: 300px;
+body{
+  background-color: rgb(0, 202, 0);
 }
 
 .card-image{
   width: 100%;
 }
 
+#app{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  width: 400px;
+  flex-wrap: wrap;
+  border-radius: 28px;
+  border: 1px solid #E0EEEE;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+  background-color: antiquewhite;
+}
+.creator{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#readycards{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+#product-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+#submit-button{
+  width: 200px;
+  height: 40px;
+}
+#submit-buttonextra{
+  padding-top: 10px;
+}
+#tablas{
+  display: flex;
+  justify-content: space-evenly;
+  padding: 15px;
+}
+article.card{
+  width: 30%;
+  text-align: center;
+}
+.card-modelcontainer{
+  padding: 15px;
+  background-color: antiquewhite;
+  height: 250px;
+  width: 450px;
+  border-radius: 28px;
+  border: 1px solid #E0EEEE;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+.card-model{
+  height: 230px;
+  width: 430px;
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cardmodelimg{
+  height: 90%;
+  width: auto;
+}
+.cardmodeltext{
+display: flex;
+align-items: flex-end;
+flex-direction: column;
+padding: 15px;
+}
+#precio-model{
+  font-weight: 600;
+  padding: 5px;
+  padding-bottom: 15px;
+}
+#descripcion-model{
+  padding: 10px;
+}
+.cardsmodels{
+  display: flex;
+  justify-content: space-around;
+}
+.card{
+  padding: 15px;
+  background-color: antiquewhite;
+  height: 250px;
+  width: 450px;
+  border-radius: 28px;
+  border: 1px solid #E0EEEE;
+  box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
